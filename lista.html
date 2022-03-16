@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Osmoc</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content=""/>
+		<meta name="description" content="Michele Mari, varianti, riferimenti intertestuali"/>
+		<meta name="author" content="Andrea Di Bello"/>
+		<!--METADATI DC-->
+		<meta name="DC.Title" content="Inserisci il titolo del tuo sito web">
+		<meta name="DC.Creator" content="Andrea Di Bello">
+		<meta name="DC.Subject" content="Inserisci il tema principale del tuo sito web">
+		<meta name="DC.Description" content="Inserisci una breve descrizione del tuo sito web">
+		<meta name="DC.Publisher"
+			content="Inserisci un riferimento all'ente che si occupa della pubblicazione del tuo sito web">
+		<meta name="DC.Date" content="2022">
+		<meta name="DC.Type" content="Sito web">
+		<meta name="DC.Format" content="HTML/CSS/JS">
+		<link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
+		<meta name="DC.Source" content="Inserisci le risorse utilizzate per la realizzazione del tuo sito web">
+		<meta name="DC.Language" content="it">
+		<meta name="DC.Relation"
+			content="">
+		<link rel="DC.Coverage"
+			href="http://vocab.getty.edu/page/tgn/7004847">
+		<meta name="DC.Rights"
+			content="Inserisci il tipo di licenza con cui intendi proteggere il tuo sito web (per esempio, fai riferimento a una delle licenze Creative Commons: https://creativecommons.org/share-your-work/)">
+		<!--foglio di stile creato da me-->
+		<link rel="stylesheet" href="stile.css">
+		<!--css bootstrap-->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<!--bootstrap icons-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	</head>
+
+	<!--body-->
+
+	<body>
+
+		<!--header-->
+		<header>
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4" id="capocchia">
+						<h1>Osmoc</h1>
+						
+							<p id="sottotitolo">Era tornato in cattedra. Ma una cattedra su cui noi cattedratici non aspiravamo salire, tanto grave il curricol richiesto!</p>						
+																		
+					</div>
+
+					<div class="col-md-8">
+
+						<!--Bootstrap navbar-->
+						<nav class="navbar navbar-expand-lg navbar-light bg-light">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+							  <span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarScroll">
+							  <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+								<li class="nav-item active">
+								  <a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+									Il romanzo
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Sinossi</a>
+									<a class="dropdown-item" href="#">Storia editoriale</a>
+									<a class="dropdown-item" href="#">Schede dei personaggi</a>
+									<a class="dropdown-item" href="#">Linea del tempo</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="item.html">L'edizione digitale</a>
+									</div>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link disabled">Le fonti</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link" href="persona.html">L'autore</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link" href="lista.html"><span class="current">Collezione</span></a>
+								</li>
+							  </ul>
+							  <form class="d-flex">
+								<input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+								<button class="btn btn-outline-success" type="submit">Search</button>
+							  </form>
+							</div>
+						  </nav>
+					</div>
+				</div>				
+			</div>				
+		</header>
+		<!--inserire main-->
+		<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center">Collezione</h2>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-2" id="leftcol">
+					<!--Ordina-->
+					<div class="checkbox-container">
+						<h3 class="mb-0">Ordina:</h3>
+						<div class="btn-group-toggle" data-toggle="buttons">
+							<label class="btn btn-outline-secondary active mt-1">
+								<input type="radio" checked> A-Z
+							</label>
+							<label class="btn btn-outline-secondary mt-1">
+								<input type="radio"> Z-A
+							</label>
+							<label class="btn btn-outline-secondary mt-1">
+								<input type="radio"> Ordine cronologico
+							</label>
+						</div>
+					</div>
+					<!--Filtra-->
+					     
+					<div class="checkbox-container mt-4">
+						<h3 class="mb-0">Filtra:</h3>
+						<!-- dropdown menu -->
+						<div class="dropdown dropright mt-1">
+							<button class="btn btn-primary btn-primary dropdown-toggle" type="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Autore
+							</button>
+							
+						</div>
+						<div class="dropdown dropright mt-1">
+							<button class="btn btn-primary btn-blue dropdown-toggle" type="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Data
+							</button>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-8" id="maincol">
+					<!--colonne innestate-->
+
+					<!--tab-->
+					<div class="row">
+                        <div class="col-md-12">
+                            <ul class="nav nav-tabs mt-4">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" title="Tutti gli oggetti catalogati">All</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo testi catalogati">Testi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo immagini catalogate">Immagini</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo audio catalogati">Audio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo video catalogati">Video</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+					<!--Prima riga di colonne-->
+					<div class="row">	
+						<!--Item 1-->		
+						<div class="col-md-4 px-2">
+						<div class="card" style="width: 15rem;">
+							<img src="" class="card-img-top" alt="...">
+							<div class="card-body">
+							<h5 class="card-title">Di bestia in bestia, ed. digitale</h5>
+							<p class="card-text"></p>
+							<p class="card-text"></p>
+							<a href="item.html" class="btn btn-primary">Tutti i metadati</a>
+							</div>
+						</div>
+						</div>	
+
+						<!--Item 2-->
+						<div class="col-md-4 px-2">
+						<div class="card" style="width: 15rem;">
+							<img src="" class="card-img-top" alt="...">
+							<div class="card-body">
+							<h5 class="card-title">Innamorarsi a pagina uno</h5>
+							<p class="card-text">Autore:<b><a href="http://viaf.org/viaf/32017349" target="_blank" title="Identificativo VIAF di Giorgio Manganelli">Manganelli, Giorgio<sup>VIAF</sup></a></b></p>
+							<p class="card-text">Data: <b><a href="#">1989</a></b></p>
+							<a href="" class="btn btn-primary">Tutti i metadati</a>
+							</div>
+						</div>
+						</div>
+
+						<!--Item 3-->
+						<div class="col-md-4 px-2">  
+						<div class="card" style="width: 15rem;">
+							<img src="img/mari3.jpg" class="card-img-top" alt="Fotografia">
+							<div class="card-body">
+							<h5 class="card-title">Foto dell'autore</h5>
+							<p class="card-text">Autore:<b><a href="http://viaf.org/viaf/315965968" target="_blank" title="Identificativo VIAF di Leonardo Cendamo">Cendamo, Leonardo<sup>VIAF</sup></a></b></p>
+							<p class="card-text">Data: <b><a href="#">1990</a></b></p>
+							<a href="" class="btn btn-primary">Tutti i metadati</a>
+							</div>
+						</div>
+						</div>
+
+					</div>
+
+					
+				</div>
+
+				
+				
+				
+
+			</div>
+			
+		</main>
+			
+					
+
+		<!--FOOTER-->
+
+		<footer>
+		<div class="container">
+			<h5>Progetto DH</h5>
+			<div class="row">
+				<div class="col-md-6">
+					<h6>Chi siamo</h6>
+				</div>
+				<div class="col-md-6">
+					<h6>Contatti</h6>
+					<ul>
+						<li><a url=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+							<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+						</svg></a></li>
+						<li><a url=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+							<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+						</svg></a></li>
+						<li><a url=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+							<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+						</svg></a></li>
+					</ul>
+				</div>
+			</div>
+			<p id="copy">&copy; Andrea Di Bello, Corso di DH & CH, 2021</p>
+		</div>
+		</footer>
+		<!--script jquery-->
+		
+	</body>
+</html>

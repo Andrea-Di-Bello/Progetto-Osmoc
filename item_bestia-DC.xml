@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="">
+    <item n="" xml:id="">        
+        <dc:title>Michele Mari, Di bestia in bestia. Edizione scientifica digitale.</dc:title>
+        <dc:creator>Mari, Michele</dc:creator>
+        <dc:subject>Narrativa italiana</dc:subject>
+        <dc:description></dc:description>
+        <dc:publisher></dc:publisher>
+        <dc:contributor>Di Bello, Andrea</dc:contributor>
+        <dc:date>2022</dc:date>        
+        <dc:type>text</dc:type>        
+        <dc:format>electronic</dc:format>
+        <dc:identifier></dc:identifier>        
+        <dc:source xml:id="bestia_einaudi">Mari, Michele. Di bestia in bestia Torino Einaudi, 2013</dc:source>
+        <dc:source xml:id="bestia_longanesi">Mari, Michele. Di bestia in bestia : una storia vera fra languore ed ardore. Milano Longanesi, 1989</dc:source>
+        <dc:language>it</dc:language>
+        <dc:relation></dc:relation>
+        <dc:coverage>Bologna</dc:coverage>
+        <dc:right></dc:right>
+    </item>
+</library>

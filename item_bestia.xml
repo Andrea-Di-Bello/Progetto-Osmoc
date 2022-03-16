@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Di bestia in bestia, edizione critica digitale</title>
+                <author xml:id="MM">Michele Mari</author>
+                <respStmt>
+                    <resp></resp>
+                    <persName>Andrea Di Bello</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Progetto DH</publisher>
+                <pubPlace>Università di Bologna</pubPlace>
+                <date>2022</date>
+                <availability>
+                    <p>Questa risorsa è accessibile esclusivamente dal creatore della stessa. Ogni trasgressore sarà severamente punito.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="bestia_einaudi">
+                        <bibl>
+                            <title>Di bestia in bestia</title>
+                            <author ref="#MM">Michele Mari</author>
+                            <publisher>Einaudi</publisher>
+                            <pubPlace>Torino</pubPlace>
+                            <date>2013</date>
+                            <idno type="ISBN">978-88-06-21533-0</idno>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="bestia_longanesi">
+                        <bibl>
+                            <title>Di bestia in bestia : una storia vera fra languore ed ardore : romanzo</title>
+                            <author ref="#MM">Michele Mari</author>
+                            <publisher>Longanesi</publisher>
+                            <pubPlace>Milano</pubPlace>
+                            <date>1989</date>
+                            <idno type="ISBN">88-304-0869-7</idno>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="location-referenced" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <listPerson>
+                <person>
+                    <persName ref="#MM" sameAs="http://viaf.org/viaf/110851354">Mari, Michele</persName>
+                </person>
+            </listPerson>
+        </profileDesc>
+    </teiHeader>
+    
+    <!-- QUI PARTE IL TESTO -->
+    <text>
+        <front>
+            <div type="esergo">
+                <p>È questa una storia di mostri. <app>
+                    <lem><hi rend="italic">Procul inde</hi>, chi non ne sostiene le orribili forme.</lem>
+                    <rdg wit="#bestia_longanesi">Procul inde abite, voi che non ne sostenete le orribili forme. Noi, se ci siamo rassegnati all'ingratitudine della cronaca, è sperando che la nostra fatica serva un giorno a qualcuno, e ci diremo contenti se anche un sol uomo verrà trattenuto per essa di qua dal precipizio ruinoso.</rdg>
+                </app></p>
+            </div>
+        </front>
+        <body>
+            
+            <!-- PRIMA PARTE -->
+            <div type="parte" n="1" xml:id="parteprima">
+                <head>
+                    <app>
+                        <lem>Parte prima</lem>
+                        <rdg wit="#bestia_longanesi">PARTE PRIMA</rdg>
+                    </app>
+                </head>
+                
+                <!-- PRIMO CAPITOLO -->
+                <div type="capitolo" n="1" xml:id="Parteprimacapitolo1">
+                    <head>
+                        <app>
+                            <lem>I.</lem>
+                            <rdg wit="#bestia_longanesi">I</rdg>
+                        </app>                        
+                    </head>
+                    <p>Partimmo alla volta di Dièfzarca con cuore leggero. Dopo venticinque mesi di segregazione in laboratorio l’idea di compiere un viaggio in quelle regioni <app>
+                        <lem>sperdute</lem>
+                        <rdg wit="#bestia_longanesi">selvagge</rdg>
+                    </app> mi <app>
+                        <lem>attirava</lem>
+                        <rdg wit="#bestia_longanesi">lusingava</rdg>
+                    </app> ancor più della prospettiva di<app>
+                        <rdg wit="#bestia_longanesi">essere finalmente sul punto di</rdg>
+                    </app> comunicare al mondo della scienza le mie<app>
+                        <rdg wit="#bestia_longanesi">sbalorditive</rdg>
+                    </app> scoperte sulla detaltibioresi degli isopropattoni a bassissima fotonía, e credo che anche <app>
+                        <lem>il professor Pes&#250;mai</lem>                      
+                        <rdg wit="#bestia_longanesi">Pes&#249;mai - il <hi rend="italic">professor</hi>Pes&#249;mai, lo conoscete -</rdg>
+                    </app> si allontanasse con un certo sollievo <app>
+                        <lem>da quell'orco di sua moglie</lem>
+                        <rdg wit="#bestia_longanesi">dalla nostra prigione</rdg>
+                    </app>. Ci accompagnava<app>
+                        <rdg wit="#bestia_longanesi">,</rdg>
+                    </app> con funzioni di interprete<app>
+                        <rdg wit="#bestia_longanesi">,</rdg>
+                    </app> la mia segretaria, la signorina Ebebléchei.</p>
+                    <p>Il viaggio fu malagevole: perché avessero scelto <app><rdg wit="#bestia_longanesi">proprio </rdg></app>Dièfzarca come sede per il <app><lem>c</lem><rdg wit="#bestia_longanesi">C</rdg></app>ongresso non <app><lem>si riusciva a capire</lem><rdg wit="#bestia_longanesi">riuscivamo a capirlo</rdg></app>. Si dovette andare in treno fino a Òpopa, poi in battello risalendo per tre giorni la corrente dell’Eidon fino a raggiungere l’estrema postazione di Eòreca: di qui, sempre verso Nord, ancora in treno per 250 miglia, destinazione Achécoa. Essendo chiusa per le recenti valanghe la strada che da Achécoa piega <app><rdg wit="#bestia_longanesi">decisamente</rdg></app>ad Est, fu necessario affidarsi alla piccola cremagliera della linea Apézanon-Teznèisa, che effettuando un tragitto piú lungo non ci portò a Sbènnumi in meno di due giorni. A Sbènnumi, minuscolo abitato ai piedi del Dúnai, trovammo ad attenderci la vettura del servizio di posta, che con nostra sorpresa si rivelò essere un’autentica diligenza del secolo scorso. Dai suoi finestrini guardavamo i ripidi fianchi delle montagne che ci apprestavamo i ripidi fianchi delle montagne che ci apprestavamo a valicare, e che le bolle d’aria imprigionate da cent’anni nel vetro deformavano nelle maniere piú bizzarre. Valicato il massiccio, ci inoltrammo| su una vettura simile alla prima nella regione montuosa dell’Apolefzéso, in quella stagione dell’anno interamente ricoperta di neve.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
