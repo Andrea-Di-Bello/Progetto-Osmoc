@@ -9,6 +9,18 @@ header {
 #capocchia {
 }
 
+#banner {
+	margin: auto;
+}
+
+#banner img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 573px;
+	width: 900px;	
+}
+
 #sottotitolo {
 	font-family: garamond, serif;
 }
@@ -148,7 +160,7 @@ p {
 #img-evt {
 	width: 100%;
   	height: auto;
-	filter: blur(4px);	
+	filter: blur(2px);	
 }
 
 

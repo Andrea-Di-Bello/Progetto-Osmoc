@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Innamorarsi a pagina uno. Edizione digitale</title>
+                <author xml:id="GM">Giorgio Manganelli</author>
+                <respStmt>
+                    <resp>Trascrizione e codifica</resp>
+                    <persName xml:id="ADB">Andrea Di Bello</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Innamorarsi a pagina uno</title>
+                    <author ref="#GM">Giorgio Manganelli</author>
+                    <editor>Paola Italia</editor>
+                    <publisher>Adelphi</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <date>1994</date>
+                    <note>In: Giorgio Manganelli, Il rumore sottile della prosa, a cura di Paola Italia, Milano, Adelphi, 1994.
+                    Pubblicato inizialmente nel "Messaggero", 22 Aprile 1989.</note>
+                    <idno type="ISBN">88-459-1057-1</idno>
+                </bibl>
+            </sourceDesc>
+            <sourceDesc>
+                <listBibl>
+                    <bibl xml:id="lunatici">Cavazzoni Ermanno, Il poema dei lunatici</bibl>
+                    <bibl xml:id="superlativo">Rugarli Giampaolo, Il superlativo assoluto</bibl>
+                    <bibl xml:id="bestia">Mari Michele, Di bestia in bestia</bibl>
+                    <bibl xml:id="resta">Kristof Agota, Quello che resta</bibl>
+                    <bibl xml:id="silenzi">Koblas Lucio, Silenzi collettivi</bibl>
+                    <bibl xml:id="lucerna">Pona Francesco, La lucerna</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <listPerson>
+                <person>
+                    <persName ref="#GM" sameAs="http://viaf.org/viaf/32017349">Manganelli, Giorgio</persName>
+                </person>
+                <person>
+                    <persName xml:id="cavazzoni" sameAs="http://viaf.org/viaf/59892487">Cavazzoni, Ermanno</persName>
+                </person>
+                <person>
+                    <persName xml:id="MM" sameAs="http://viaf.org/viaf/110851354">Mari, Michele</persName>
+                </person>
+                <person>
+                    <persName xml:id="rugarli" sameAs="http://viaf.org/viaf/92294231">Rugarli, Giampaolo</persName>
+                </person>
+                <person>
+                    <persName xml:id="kristof" sameAs="http://viaf.org/viaf/111400548">Kristof, Agota</persName>
+                </person>
+                <person>
+                    <persName xml:id="merini" sameAs="http://viaf.org/viaf/100979376">Merini, Alda</persName>
+                </person>
+                <person>
+                    <persName xml:id="pona" sameAs="http://viaf.org/viaf/89362741">Pona, Francesco</persName>
+                </person>
+            </listPerson>
+        </profileDesc>        
+    </teiHeader>
+    <text>
+        <body>
+            <head>Innamorarsi a pagina uno</head>
+            <p>Mi è capitato, in questi ultimi mesi, di recensire alcune ‘opere prime’: <bibl>Il poema dei lunatici</bibl> di <persName ref="#cavazzoni">Cavazzoni</persName>, <bibl>Il superlativo assoluto</bibl> di <persName ref="#rugarli">Rugarli</persName>, <bibl>La bestia</bibl> di <persName ref="#MM">Mari</persName>. Potrei aggiungere <bibl>Quello che resta</bibl>, di <persName ref="#kristof">Agota Kristof</persName>, tradotto dal francese; la prima opera in prosa, che io sappia, di una poetessa, <persName ref="#merini">Alda Merini</persName>, e non proprio l’opera prima, ma la meno clandestina di <persName>Lucio Klobas</persName>, <bibl>Silenzi collettivi</bibl>. Mi chiedo se c’è una logica, un metodo, nella scelta di un’opera prima da recensire. Ovviamente ci deve essere, ma non può avere nulla a che fare con il metodo che mi spinge a recensire l’opera di un autore che a qualche titolo io conosco, o magari di un classico; e si noti che ci sono anche dei classici che ci arrivano come ‘opere prime’, scritte da autori del tutto ignoti: ricordo ancora lo stupore con cui lessi <bibl>La lucerna</bibl> di <persName ref="pona">Francesco Pona</persName>, un autore del Seicento; libro assai curioso, ma che mi pare sia passato abbastanza inosservato, come accade appunto a molte opere prime.</p>
+            <p>Dunque, se c’è un metodo, qual è? Credo che la maggior parte dei recensori faccia la prova di leggere qualche pagina del libro di autore ignoto; diciamo, una ventina; dopo venti pagine debbo sapere se il libro mi incuriosisce abbastanza da indurmi a proseguire per altre venti; a pagina quaranta so già se il libro mi interessa, e quanto. Generalmente lo si sa già a pagina venti. Superficiale? Abbastanza. Ma poiché la letteratura è avventura, la superficialità rientra nelle regole del caso.</p>
+            <p>Rileggendo le righe che ho scritto mi accorgo di aver scritto una parola che trovo precisa: ‘incuriosisce’. In venti pagine un autore ha tutto il tempo che vuole per incuriosire; ma in che modo? Gli antichi sapevano che l’esordio di uno scritto ha una virtù fatale. È l’occhiata innamorativa: pensate alla prima ottava dell’<bibl>Orlando furioso</bibl>, al primo capoverso dei <bibl>Promessi Sposi</bibl>. Hanno qualcosa in comune? Sì, la fedeltà ad un ritmo. Venti righe, non venti pagine, possono bastare per dirmi che quello scrittore ha orecchio, che le parole, oltre che di un senso, sono portatrici di un disegno. Io non so di che cosa parlerà il libro, ma posso legittimamente sospettare che mi piacerà seguire quella prosa, e ci penserà la prosa a generare avventure, dilemmi e labirinti. Ora, io so, al di là di ogni dubbio, che le opere prime, anche intese in senso lato, che ho citato, hanno tutte una certa qualità di prosa; molto diverse, ma sempre tali da ‘incuriosire’.</p>
+            <p>Esaminiamo i vari casi, come si sono presentati in concreto. <persName ref="#cavazzoni">Cavazzoni</persName>: ignoto, ma lanciato con una accorta presentazione; di regola, mi insospettisce; mai leggere un libro propagandato di autore ignoto. Ma <persName ref="#cavazzoni">Cavazzoni</persName> diede una intervista, nella quale disse qualcosa che, appunto, mi incuriosì: si disse ammirato lettore di <persName>Augusto Frassineti</persName>, uno scrittore bizzarro, inconsueto, scomparso da pochi anni, e oggi pressoché dimenticato. Se <persName ref="#cavazzoni">Cavazzoni</persName> lo conosceva e lo apprezzava, voleva dire che aveva un avvertito e ingegnoso gusto per la letteratura grottesca e satirica. Quando affrontai il libro di Cavazzoni ebbi dapprima l’impressione che mi incuriosisse troppo; c’era, mi pareva, un eccesso di consapevolezza. Ma che fosse prosa interessante, non c’era da dubitare. Era un libro esplicitamente ‘strano’.</p>
+            <p>Il caso più duro fu <persName ref="#rugarli">Rugarli</persName>. Il libro mi arrivò senza una riga di presentazione, pubblicità zero, nome totalmente ignoto; ma dopo dieci pagine non avevo dubbi: la prosa aveva un movimento sottile, ingegnoso, sommesso e adescante, la prosa di un narratore fantastico e astratto. Credo di esser stato il primo recensore di <persName ref="#rugarli">Rugarli</persName> e me ne vanto.</p>
+            <p><persName ref="#MM">Mari</persName>: un nome vagamente noto per via di amici, ma nulla mi faceva pensare che scrivesse; una segnalazione dall’editore, Longanesi: «un libro gaddiano». Una presentazione di cui diffidai, fortunatamente era criticamente infondata. La prosa di <persName ref="#MM">Mari</persName> è via via che procede il libro sempre più stravagante; ma mi affascinava il compromesso fra passività e calcolo, furbizia e ipnosi.</p>
+            <p>Vorrei accennare alla <persName ref="#kristof">Kristof</persName>: un innamoramento dopo una pagina; una prosa sapiente e secca, rapida e aggressiva, una andatura grandiosa e torva.</p>
+            <p>Così ho ceduto alla filastrocca di <persName>Klobas</persName>, e al discorso drammaticamente, ritmicamente sconnesso di <persName ref="#merini">Alda Merini.</persName></p>
+            <p>Aprire la prima pagina di un’opera prima è sempre una esperienza, talora eccitante, talora frastornante; la letteratura non è programmabile, non è prevedibile, ogni libro chiuso ed ignoto ha diritto ad essere considerato un capolavoro; ogni ‘opera prima’ si colloca nella serie di quel famoso solitario che non riesce quasi mai, ma quando riesce il mondo cambia; e a noi, lettori, non resta che aprire, instancabilmente, un libro dopo l’altro, come a dire rovesciare le carte, giustapporle, contemplarle.</p>
+        </body>
+    </text>
+</TEI>
