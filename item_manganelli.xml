@@ -41,6 +41,9 @@
                     <persName ref="#GM" sameAs="http://viaf.org/viaf/32017349">Manganelli, Giorgio</persName>
                 </person>
                 <person>
+                    <persName ref="#PI" sameAs="http://viaf.org/viaf/44394967">Italia, Paola</persName>
+                </person>
+                <person>
                     <persName xml:id="cavazzoni" sameAs="http://viaf.org/viaf/59892487">Cavazzoni, Ermanno</persName>
                 </person>
                 <person>
